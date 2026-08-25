@@ -158,24 +158,30 @@ PRODUCT
 PROFITABILITY
   ↓
 EXECUTIVE DECISION
+```
+
 Each layer answers a different business question:
 
-Layer	Analytical Focus
-Sales	What happened to revenue and target performance?
-Marketing	Which channels and campaigns are driving or diluting growth?
-Funnel	Where are customers being lost before conversion?
-SEO	Where are the untapped organic growth opportunities?
-Product	Which categories and products are driving commercial performance?
-Profitability	Which revenue streams create sustainable economic value?
+| Layer | Analytical Focus |
+| ----- | ----------------- |
+| **Sales** | What happened to revenue and target performance? |
+| **Marketing** | Which channels and campaigns are driving or diluting growth? |
+| **Funnel** | Where are customers being lost before conversion? |
+| **SEO** | Where are the untapped organic growth opportunities? |
+| **Product** | Which categories and products are driving commercial performance? |
+| **Profitability** | Which revenue streams create sustainable economic value? |
 
 The framework moves the analysis from:
 
-Performance → Driver → Diagnosis → Action
+> **Performance → Driver → Diagnosis → Action**
 
-Analytical Approach
+---
+
+## Analytical Approach
 
 The workbook follows an end-to-end analytical workflow:
 
+```text
 RAW DATA
     ↓
 DATA QA
@@ -187,75 +193,87 @@ ANALYTICAL METRICS
 EXECUTIVE DASHBOARD
     ↓
 BUSINESS DECISIONS
+```
 
-Data Layer
+### 1. Data Layer
 
 The analysis uses five synthetic source datasets:
 
-GA4 data
-Google Ads data
-SEO / Search Console-style data
-E-commerce transaction data
-Product master data
-Data Quality Layer
+- GA4 data
+- Google Ads data
+- SEO / Search Console-style data
+- E-commerce transaction data
+- Product master data
 
-The DATA_QA sheet contains automated data-integrity and cross-source checks using:
+### 2. Data Quality Layer
 
-PASS / CHECK / FAIL
+The `DATA_QA` sheet contains automated data-integrity and cross-source checks using:
+
+**PASS / CHECK / FAIL**
 
 This layer validates data quality and reconciliation before metrics reach the dashboard.
 
-Calculation Layer
+### 3. Calculation Layer
 
-The CALCULATIONS sheet acts as the central formula engine for the workbook.
+The `CALCULATIONS` sheet acts as the central formula engine for the workbook.
 
 Key metrics include:
 
-Revenue
-Orders
-AOV
-Marketing Spend
-ROAS
-Break-even ROAS
-Gross Profit
-Gross Margin
-Contribution Profit
-Contribution Margin
-Conversion Rate
-CPA
-CPC
-Target and Variance
-Analytical Layer
+- Revenue
+- Orders
+- AOV
+- Marketing Spend
+- ROAS
+- Break-even ROAS
+- Gross Profit
+- Gross Margin
+- Contribution Profit
+- Contribution Margin
+- Conversion Rate
+- CPA
+- CPC
+- Target and Variance
+
+### 4. Analytical Layer
 
 Detailed metric tables support:
 
-Channel performance
-Campaign efficiency
-SEO query analysis
-Product profitability
-Monthly performance trends
-Decision Layer
+- Channel performance
+- Campaign efficiency
+- SEO query analysis
+- Product profitability
+- Monthly performance trends
+
+### 5. Decision Layer
 
 The final dashboard translates analytical findings into business actions around:
 
-Budget allocation
-Campaign optimization
-Funnel improvement
-SEO opportunities
-Product prioritization
-Profitability protection
-Business Recommendations
+- Budget allocation
+- Campaign optimization
+- Funnel improvement
+- SEO opportunities
+- Product prioritization
+- Profitability protection
+
+---
+
+## Business Recommendations
 
 Based on the analysis, the main priorities are:
 
-Reduce or restructure below-break-even campaigns, particularly Non-Brand Search – Home.
-Protect and scale high-return campaigns, including Remarketing – Cart Abandoners.
-Address the Add-to-Cart bottleneck through product-page and merchandising improvements.
-Improve high-impression / low-CTR SEO queries to convert existing search visibility into qualified traffic.
-Review high-ranking but non-converting queries for landing-page and search-intent alignment.
-Prioritize high-revenue / high-margin products when allocating promotional and marketing resources.
-Close the revenue target gap through efficiency and conversion improvements, rather than relying solely on additional acquisition spend.
-Workbook Structure
+1. **Reduce or restructure below-break-even campaigns**, particularly Non-Brand Search – Home.
+2. **Protect and scale high-return campaigns**, including Remarketing – Cart Abandoners.
+3. **Address the Add-to-Cart bottleneck** through product-page and merchandising improvements.
+4. **Improve high-impression / low-CTR SEO queries** to convert existing search visibility into qualified traffic.
+5. **Review high-ranking but non-converting queries** for landing-page and search-intent alignment.
+6. **Prioritize high-revenue / high-margin products** when allocating promotional and marketing resources.
+7. **Close the revenue target gap through efficiency and conversion improvements**, rather than relying solely on additional acquisition spend.
+
+---
+
+## Workbook Structure
+
+```text
 Norvana_Goods_Executive_Dashboard.xlsx
 │
 ├── DASHBOARD
@@ -273,81 +291,114 @@ Norvana_Goods_Executive_Dashboard.xlsx
 ├── SEO_DATA
 ├── ECOMMERCE_DATA
 └── PRODUCT_MASTER
-Sheet / Layer	Purpose
-DASHBOARD	Single Executive Dashboard
-DATA_QA	Data quality and cross-source reconciliation
-CALCULATIONS	Central formula engine
-Channel_Metrics	Channel-level performance
-Campaign_Metrics	Campaign-level efficiency
-SEO_Query_Metrics	SEO opportunity analysis
-Product_Metrics	Product and profitability analysis
-Monthly_Trend	Monthly performance history
-Raw Data	Controlled source datasets
-Tools & Skills
-Tools
+```
 
-Excel & Analytical Techniques
-SUMIFS
-XLOOKUP
-Conditional logic
-KPI calculations
-Period-over-period analysis
-Target and variance analysis
-Cross-source reconciliation
-Ranking and segmentation
-Dashboard visualization
-Business analysis
-Analytical Skills
-Business problem framing
-Data quality validation
-Marketing performance analysis
-Funnel analysis
-SEO opportunity analysis
-Product profitability analysis
-Performance diagnosis
-Business recommendation
-Budget allocation analysis
-Data & Methodology
+| Sheet / Layer | Purpose |
+| -------------- | ------- |
+| `DASHBOARD` | Single Executive Dashboard |
+| `DATA_QA` | Data quality and cross-source reconciliation |
+| `CALCULATIONS` | Central formula engine |
+| `Channel_Metrics` | Channel-level performance |
+| `Campaign_Metrics` | Campaign-level efficiency |
+| `SEO_Query_Metrics` | SEO opportunity analysis |
+| `Product_Metrics` | Product and profitability analysis |
+| `Monthly_Trend` | Monthly performance history |
+| Raw Data | Controlled source datasets |
 
-All data in this project is synthetic and created specifically for portfolio purposes.
+---
+
+## Tools & Skills
+
+### Tools
+
+[![Microsoft Excel](https://img.shields.io/badge/Microsoft%20Excel-Advanced-217346?logo=microsoft-excel&logoColor=white)](#)
+
+### Excel & Analytical Techniques
+
+- `SUMIFS`
+- `XLOOKUP`
+- Conditional logic
+- KPI calculations
+- Period-over-period analysis
+- Target and variance analysis
+- Cross-source reconciliation
+- Ranking and segmentation
+- Dashboard visualization
+- Business analysis
+
+### Analytical Skills
+
+- Business problem framing
+- Data quality validation
+- Marketing performance analysis
+- Funnel analysis
+- SEO opportunity analysis
+- Product profitability analysis
+- Performance diagnosis
+- Business recommendation
+- Budget allocation analysis
+
+---
+
+## Data & Methodology
+
+All data in this project is **synthetic** and created specifically for portfolio purposes.
 
 Norvana Goods is a fictional company.
 
 The dataset is intentionally designed to simulate realistic e-commerce reporting conditions, including measurement differences and reconciliation gaps between commercial, analytics, advertising, and SEO data sources.
 
-E-commerce transaction data is treated as the commercial source of truth for revenue and profitability, while GA4 is primarily used for behavioral and funnel analysis.
+**E-commerce transaction data** is treated as the commercial source of truth for revenue and profitability, while **GA4** is primarily used for behavioral and funnel analysis.
 
-SEO data is maintained as an independent Search Console-style dataset and is not expected to reconcile exactly with GA4 Organic data due to differences in measurement methodology and attribution.
+SEO data is maintained as an independent **Search Console-style dataset** and is not expected to reconcile exactly with GA4 Organic data due to differences in measurement methodology and attribution.
 
-All monetary values are presented in Indonesian Rupiah (IDR).
+All monetary values are presented in **Indonesian Rupiah (IDR)**.
 
-Project Files
-File	Description
-Norvana Goods Executive Dashboard	Complete interactive Excel workbook
-Executive Dashboard Preview	Dashboard screenshot
-<p align="center"> <a href="dashboard/Norvana_Goods_Executive_Dashboard.xlsx"> <img src="https://img.shields.io/badge/DOWNLOAD%20EXCEL%20PROJECT-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Download Excel Project"/> </a> </p>
-Why This Project
+---
+
+## Project Files
+
+| File | Description |
+| ---- | ----------- |
+| [Norvana Goods Executive Dashboard](dashboard/Norvana_Goods_Executive_Dashboard.xlsx) | Complete interactive Excel workbook |
+| [Executive Dashboard Preview](screenshots/executive-dashboard.png) | Dashboard screenshot |
+
+<p align="center">
+  <a href="dashboard/Norvana_Goods_Executive_Dashboard.xlsx">
+    <img src="https://img.shields.io/badge/DOWNLOAD%20EXCEL%20PROJECT-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Download Excel Project"/>
+  </a>
+</p>
+
+---
+
+## Why This Project
 
 This project was designed to demonstrate an analytical process that goes beyond dashboard creation.
 
 The focus is on connecting:
 
-Business Question → Data → QA → Calculation → Analysis → Insight → Recommendation
+**Business Question → Data → QA → Calculation → Analysis → Insight → Recommendation**
 
-The final deliverable is not simply a collection of charts, but a decision-oriented analytical system designed to help management understand performance, identify its drivers, and prioritize actions.
+The final deliverable is not simply a collection of charts, but a **decision-oriented analytical system** designed to help management understand performance, identify its drivers, and prioritize actions.
 
-Author
+---
 
-Nabilla Salsa
+## Author
+
+**Nabilla Salsa**
 
 Data Analyst | Business & Marketing Analytics
 
-LinkedIn
+[LinkedIn](https://www.linkedin.com/in/nabillasalsa/)
 
-Disclaimer
+---
+
+## Disclaimer
 
 Norvana Goods is a fictional brand created for portfolio purposes.
 
 All data, figures, business scenarios, and findings are synthetic and do not represent a real company.
 
-Thank you for taking the time to explore this project.
+---
+
+**Thank you for taking the time to explore this project.**
